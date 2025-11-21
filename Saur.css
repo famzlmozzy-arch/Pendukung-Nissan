@@ -1,0 +1,73 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing:border-box;
+}
+
+body { /*dikerjakan oleh Elbert*/
+    font-weight: 1100;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-image: linear-gradient(135deg,#494256, #9260e3, #00457a);
+    cursor: url("Images/tiger.png"), default;
+}
+
+body img{ /*dikerjakan oleh Elbert*/
+    width: 50%;
+}
+
+/*makan-mikelbyne oleh Michael*/
+.makan-mikelbyne{
+    background: #ffffff;
+    padding: 30px 40px;
+    border-radius: 15px;
+    width: 520px;
+    height: 520px;
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 25);
+}
+
+/*loren-mikelbyne oleh Michael*/
+.loren-mikelbyne {
+    position: relative;
+    top: -15px;
+    left: 108px;
+    width: 50%; 
+    height: 50%;
+}
+
+
+h2 {/*dikerjakan oleh Elbert*/
+    text-align: center;
+    color:rgb(81, 110, 154);
+    font-size: 38px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+
+button {/*dikerjakan oleh Michael*/
+    height: 48px;
+    width: 438px;
+    color: white;
+    background-color: rgb(67, 74, 133); /*warna bg oleh Elbert*/
+    border-radius: 10px;
+}
+
+
+input {/*dikerjakan oleh Michael*/
+    height: 48px;
+    width: 438px;
+    border-radius: 10px;
+    outline-color: rgb(67, 76, 114);/*warna outline oleh Elbert*/
+}
+
+
+.nisn-mikelbyne {/*dikerjakan oleh Michael*/
+    font-size: 24px;
+    color:rgb(96, 114, 139);
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
